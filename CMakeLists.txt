@@ -61,8 +61,8 @@ endif()
 # Dependencies
 #
 # NRK Note: add Qt5Core directory here to make this work on your mac system
-set(Qt5Core_DIR "/Users/nkinsky/Qt/5.15.0/clang_64/lib/cmake/Qt5Core")
-set(Qt5Widgets_DIR "/Users/nkinsky/Qt/5.15.0/clang_64/lib/cmake/Qt5Widgets")
+# set(Qt5Core_DIR "/Users/nkinsky/Qt/5.15.0/clang_64/lib/cmake/Qt5Core")
+# set(Qt5Widgets_DIR "/Users/nkinsky/Qt/5.15.0/clang_64/lib/cmake/Qt5Widgets")
 include(GNUInstallDirs)
 find_package(Threads)
 find_package(Qt5Core 5.12 REQUIRED)

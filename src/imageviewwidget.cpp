@@ -65,8 +65,8 @@ void ImageViewWidget::initializeGL()
                                              "You may want to try to upgrade your graphics drivers.\n"
                                              "Can not continue."),
                               QMessageBox::Ok);
-        qFatal("Unable to initialize OpenGL functions. Your system needs at least OpenGL 3.0 to run this application.");
-        QCoreApplication::exit(6);
+//        qFatal("Unable to initialize OpenGL functions. Your system needs at least OpenGL 3.0 to run this application.");
+//        QCoreApplication::exit(6);
     }
 
     float r = ((float)d->bgColor.darker().red()) / 255.0f;
